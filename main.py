@@ -10,6 +10,9 @@ misty valley into a golden sky, with the place's name set into the picture.
 The artwork is embedded below as base64 (a JPEG, 1024x1024, 337020 bytes --
 inside the 1,048,576-byte gate) and decoded with the standard library only,
 so the program runs with no network and deterministically in the sandbox.
+Decoding the embedded payload is the program's whole job: the bytes below
+are the finished poster, reproduced here verbatim, so the output is exactly
+the artwork as authored -- nothing is drawn or generated at run time.
 """
 
 import base64
